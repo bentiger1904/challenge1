@@ -3,27 +3,27 @@
     padding: 0;
     margin: 0;
 }
-
+/*website background colour*/
 body {
     background-color: #d9dcd6;
 }
-
+/*header colour, font type, text and background colour*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*company name in header, display type and font size*/
 header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 34px;
 }
-
+/*sets a different colour for 3 letters of the company name*/
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*Positioning, font size and type of header menu link text*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +31,21 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*List style of navigation bar menu options*/
 header nav ul {
     list-style-type: none;
 }
-
+/*Positioning and display type of navigation bar menu options*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*navigation menu option text colour and decoration*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-}
-
+/*large top image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,25 +54,56 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*display type, width and margin of section*/
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*1st and 3rd images in section positioned left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*2nd image in section positioned right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*articles positioning, colours and font*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*image in 1st article*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/*image in 2nd article*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/*image in 3rd article*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*article headings*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
 
+/*paragraph font size in articles*/
+p {
+    font-size: 16px;
+}
 
+/*aside. descriptions of benefits, orientation, sizing, colour and fonts*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -87,68 +114,42 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*benefit content position and text colour within aside*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*benefit headings position within aside*/
 .benefit-lead, .benefit-brand, .benefit-cost h3 {
     margin-bottom: 30px;
     text-align: center;
 }
-
+/*lead generation image display type and sizing within aside*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*brand awareness image display type and sizing within aside*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*cost management image display type and sizing within aside*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization, .online-reputation-management, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Footer positioning and font*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
-    font-size: 20px;
+ .footer
+ p {
+    font-size: 10px;
 }
