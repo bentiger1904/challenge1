@@ -12,9 +12,9 @@ Tasks;
 - Place attributes in sequential order
 - Change title to contain a concise description
 
-## Installation
+## Live site
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+You can find the live site here - https://bentiger1904.github.io/challenge1/
 
 ## License
 
